@@ -2,7 +2,7 @@
     <div>
         <br>
         <h1>Registration Form</h1>
-        <div ref="infoShow" id="display">...</div>
+        <div ref="infoShow" id="display" v-show="showDiv">...</div>
         <hr>
         <div>{{ fullname }}</div>
         <div>{{ gender }}</div>
@@ -47,6 +47,8 @@
                 languages: [],
                 address: '',
                 info: '',
+
+                showDiv: true,
             }
         },
         methods: {
