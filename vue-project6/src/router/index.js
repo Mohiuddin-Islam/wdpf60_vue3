@@ -3,6 +3,9 @@ import HomeView from '../views/HomeView.vue'
 import FoodItem from '@/views/FoodItem.vue'
 import FruitItem from '@/components/FruitItem.vue'
 import TodoList from '@/views/TodoList.vue'
+import RefPage from '@/views/RefPage.vue'
+import LifeCycle from '@/views/LifeCycle.vue'
+import FormInputs from '@/views/FormInputs.vue'
 
 
 const router = createRouter({
@@ -27,6 +30,21 @@ const router = createRouter({
       path: '/todo',
       name: 'todo',
       component: TodoList,
+    },
+    {
+      path: '/ref',
+      name: 'ref',
+      component: RefPage,
+    },
+    {
+      path: '/lifecycle',
+      name: 'lifecycle',
+      component: LifeCycle,
+    },
+    {
+      path: '/form',
+      name: 'form',
+      component: FormInputs,
     },
     
   ],
