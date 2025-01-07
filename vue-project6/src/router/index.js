@@ -6,6 +6,8 @@ import TodoList from '@/views/TodoList.vue'
 import RefPage from '@/views/RefPage.vue'
 import LifeCycle from '@/views/LifeCycle.vue'
 import FormInputs from '@/views/FormInputs.vue'
+import FlowerItem from '@/views/FlowerItem.vue'
+import FlowerList from '@/views/FlowerList.vue'
 
 
 const router = createRouter({
@@ -45,6 +47,16 @@ const router = createRouter({
       path: '/form',
       name: 'form',
       component: FormInputs,
+    },
+    {
+      path: '/flowers',
+      name: 'flowers',
+      component: FlowerItem,
+    },
+    {
+      path: '/flowerlist',
+      name: 'flowerlist',
+      component: FlowerList,
     },
     
   ],

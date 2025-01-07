@@ -14,7 +14,9 @@ import { RouterLink, RouterView } from 'vue-router'
         <RouterLink to="/todo">Todo List</RouterLink> |
         <RouterLink to="/ref">References Hook</RouterLink> |
         <RouterLink to="/lifecycle">LifeCycle Hook</RouterLink> |
-        <RouterLink to="/form">Form Inputs</RouterLink>
+        <RouterLink to="/form">Form Inputs</RouterLink> |
+        <RouterLink to="/flowers">Flower List</RouterLink> |
+        <RouterLink to="/flowerlist">Flower List Again</RouterLink>
       </nav>
     </div>
   </header>
